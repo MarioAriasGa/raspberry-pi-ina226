@@ -9,7 +9,7 @@ Enable i2c using `raspi-config` or make sure that this line is uncommented in th
 ```dtparam=i2c_arm=on```
 
 ```
-$ sudo apt-get install wiringpi i2c-tools
+$ sudo apt-get install wiringpi i2c-tools libi2c-dev
 $ make
 ```
 
